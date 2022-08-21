@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- for language --> 
+	<meta charset="utf-8">
+	
+	<!-- my Css file -->
+	<link rel="stylesheet" type="text/css" href="proj.Css">  
+
+	<!-- web name & and img icon -->
+	<title> Joy Ultra </title> 
+    <link rel="icon" type="image/png" href="img/Care1.png" width="100%">
+    
+</head>
+<body>
+    <a href="Home.html"><img src="img/Care1.png" width="150px"></a>
+    <a href="Home.html"><img src="img/Care2.png" width="300px"></a>
+    
+    <!-- website colore -->
+    <body bgcolor= #e8ede7>
+    
+<!-- navgation -->
+<div class="Home">
+<a href="Home.html">Home</a>
+<a href="Favorite.html">Favorite</a>
+<a href="Log in.html">Log in</a>
+<a href="About.html">About</a>
+<a href="Contact.html">Contact</a>
+</div>
+
+<br>
+<br>
+<br>
+
+<center>
+
+<div class="cardsbak">
+    <article class="cardbak"> 
+        <img src="img/imgflo1.jpg" alt="" id="bigImage" />
+		</article>
+    </div>
+</center>
+<center>	
+	<div class="container">
+<h1> Joy Ultra Rich Spray</h1>
+<h2>Description:</h2>
+
+<h4> It contains micro-particles of silicone that penetrate into the hair,</h4>
+<h4> fibers and layers, moisturizing and protecting it, making it silky smooth.</h4>
+<h4>It has a color protection feature from fading. Contains natural silk proteins</h4>
+<h4>that prevent its breakage and split ends.It treats damaged hair and makes it easier to comb. </h4>
+
+</div>
+</center>
+
+<center>
+<div class="cards">
+
+    <article class="card">    
+      
+      <a href=" https://www.amazon.sa/?ref_=navm_em_header_home" target="_blank"><img  src="Amazon.jpg"></a>
+     
+        <div class="content">          
+            <h2>Amazon </h2><br>
+        </div>
+            
+    </article>
+    
+     <article class="card">    
+     
+       <a href=" https://niceonesa.com/ar/?gclid=CjwKCAjwrqqSBhBbEiwAlQeqGmPq7OG4MfFL6YJxDGl5qk1m9kfzAczf87y7nAC0nAMLqhtzoGaSlhoC3scQAvD_BwE" target="_blank"><img  src="nice.jpg" ></a>
+       
+        <div class="content">           
+            <h2>Niceone </h2><br>
+        </div>
+  </div>
+            
+    </article>
+ </center>
+ <center>   
+ <div class="cards">
+   
+     <article class="card">
+         
+       <a href="https://sa.iherb.com/?gclid=CjwKCAjwrqqSBhBbEiwAlQeqGmI8FJEMLpBRAgql7cq66d6L5kZ0-SVRZsZst__qMujgm2Fn7QGkqhoCZHwQAvD_BwE&gclsrc=aw.ds" target="_blank"><img  src="Iherb.jpg"></a>
+    
+        <div class="content">        
+            <h2>iHerb </h2><br>
+        </div>
+            
+    </article>
+    
+     <article class="card"> 
+        
+       <a href=" https://www.noon.com/saudi-ar/?gclid=CjwKCAjwrqqSBhBbEiwAlQeqGp59cZA0PSEi2Q3NbjkjoPnyo9lHBWQmSrWtRxhPqtPrPTbFyQT14hoCMxYQAvD_BwE&utm_campaign=C1000035432N_sa_ar_web_on_go_s_ex_cb_nbr_c1000088l_&utm_medium=cpc&utm_source=c1000088L" target="_blank"><img  src="Noon.jpg" ></a>
+       
+        <div class="content">
+            <h2>Noon </h2><br>
+        </div>
+            
+    </article>
+ 
+</div>
+</center>
+
+<script>
+var x = 0;
+var images = new Array("img/imgflo1.jpg","img/imgflo1-2.jpg");
+var i = setInterval(auto, 3000);
+
+function auto()
+  {
+    x++;
+    if (x == images.length)
+       x=0;
+    document.getElementById('img/bigImage').src=images[x];      
+  }
+	</script>
+</body>
+</html>

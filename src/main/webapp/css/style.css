@@ -1,0 +1,165 @@
+@charset "windows-1256";
+
+/* -------------------------------------------  menu style --------------------------------------------*/
+
+.Home {
+  overflow: hidden;
+  background-color:#c9d0c6;
+}
+ 
+.Home a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* -----------------------------------------  Section style ------------------------------------------*/
+
+.Hire-image{
+  background-image: url("img/Hire.jfif"); 
+  background-size: cover;
+  position: relative; 
+  height: 300px; 
+  width: 800px;
+  top: 70%;
+  left: 25%;
+
+}
+
+.Hand-image{
+  background-image: url("img/Hand.jfif"); 
+  background-size: cover;
+  position: relative;
+  height: 300px; 
+  width: 800px;
+  top: 70%;
+  left: 25%;
+
+}
+
+.Body-image{
+  background-image: url("img/Body.jpg"); 
+  background-size: cover;
+  position: relative;
+  height: 300px; 
+  width: 800px;
+  top: 70%;
+  left: 25%;
+}
+
+.Face-image{
+  background-image: url("img/Face.jfif"); 
+  background-size: cover;
+  position: relative;
+  height: 300px; 
+  width: 800px;
+  top: 70%;
+  left: 25%;
+}
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; 
+  font-weight: bold;
+  margin: 0 auto; 
+  padding: 5px;
+  width: 50%;
+  text-align: center; 
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  mix-blend-mode: screen;  
+}
+
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 1px solid #000000;
+  padding: 2px;
+  height:300px;
+  width:300px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: table;
+  clear: both;
+  box-sizing: border-box;
+}
+
+
+/* -----------------------------------------  product style ------------------------------------------*/
+
+.cardsbak {
+    display: grid;
+    grid-gap: 5px;
+
+    border: 3px solid darkgrey;
+    padding-top:10px;
+	padding-bottom: 10px;
+    grid-template-rows: max-content 50px 1fr;
+    margin-top: 4px;
+    box-shadow: 1px 2px 4px;
+    padding: 4px;
+    display: table;
+    clear: both;
+    
+}
+
+.cardbak {
+    display: grid;
+    margin-top: 5px;
+    padding: 5px;
+    display: table;
+
+    
+}
+
+.cardbak img {
+    object-fit: contain;
+    width :100%;
+    height:300px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(230px, 1fr));
+    grid-gap: 5px;
+    margin-top: 0px;
+    padding-top:10px;
+	padding-right: 200px;
+	padding-left: 150px;
+	padding-bottom: 10px;
+
+	
+	
+}
+
+.card {
+    display: table;
+    grid-template-rows: max-content 50px 1fr;
+    margin-top: 4px;
+    box-shadow: 1px 2px 4px;
+    padding: 4px;
+    display: table;
+    clear: both;
+    text-align: center;
+    
+}
+
+.card img {
+    object-fit: contain;
+    width :100%;
+    height:200px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- for language --> 
+	<meta charset="utf-8">
+	
+	<!-- my Css file -->
+	<link rel="stylesheet" type="text/css" href="proj.Css">  
+
+	<!-- web name & and img icon -->
+	<title> Hire mask </title> 
+    <link rel="icon" type="image/png" href="Care1.png" width="100%">
+    
+</head>
+<body>
+    <a href="Home.html"><img src="Care1.png" width="150px"></a>
+    <a href="Home.html"><img src="Care2.png" width="300px"></a>
+    
+    <!-- website colore -->
+    <body bgcolor= #e8ede7>
+    
+<!-- navgation -->
+<div class="Home">
+<a href="Home.html">Home</a>
+<a href="Favorite.html">Favorite</a>
+<a href="Log in.html">Log in</a>
+<a href="About.html">About</a>
+<a href="Contact.html">Contact</a>
+</div>
+
+<br>
+<br>
+<br>
+
+<center>
+
+<div class="cardsbak">
+    <article class="cardbak"> 
+        <img src="imgflo1.jpg" alt="" id="bigImage" />
+		</article>
+    </div>
+</center>
+<center>	
+	<div class="container">
+<h1> Hair Treatment Gro by Palmer’s </h1>
+<h2>Description:</h2>
+
+<h4> Made with a water-resistant formula that combines vitamin E, </h4>
+<h4> olive oil and soybean protein to protect hair and allow it to grow longer., </h4>
+<h4> Protects hair from moisture and harmful environmental factors.  </h4>
+<h4> It moisturizes dry hair scalp. </h4>
+
+</div>
+</center>
+
+<center>
+<div class="cards">
+
+    <article class="card">    
+      
+      <a href="https://www.amazon.sa/علاج-هير-سيكسيس-بالمرز-للجنسين/dp/B005EWIUNS/ref=asc_df_B005EWIUNS/?tag=samobshop-21&linkCode=df0&hvadid=444001403731&hvpos=&hvnetw=g&hvrand=4869344205860770431&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=1012089&hvtargid=pla-1444116229365&psc=1"  target="_blank"><img  src="Amazon.jpg"></a>
+     
+        <div class="content">          
+            <h2>Amazon </h2><br>
+        </div>
+            
+    </article>
+    
+     <article class="card">    
+     
+       <a href=" https://niceonesa.com/ar/%D9%85%D8%B9%D8%A7%D9%84%D8%AC-%D8%A7%D9%84%D8%B4%D8%B9%D8%B1-%D9%82%D8%B1%D9%88-%D9%85%D9%86-%D8%A8%D8%A7%D9%84%D9%85%D8%B1%D8%B2-100-%D8%AC-n8753/" target="_blank"><img  src="nice.jpg" ></a>
+       
+        <div class="content">           
+            <h2>Niceone </h2><br>
+        </div>
+  </div>
+            
+    </article>
+ </center>
+ <center>   
+ <div class="cards">
+   
+     <article class="card">
+         
+       <a href="https://www.nahdionline.com/ar/palmers-hair-cream-hair-treatment-100-gm" target="_blank"><img  src="nahdi.jpg"></a>
+    
+        <div class="content">        
+            <h2>Nahdionline </h2><br>
+        </div>
+            
+    </article>
+    
+     <article class="card"> 
+        
+       <a href=" https://www.noon.com/saudi-ar/hair-success-gro-treatment-with-vitamin-e-100g/N30600523A/p/" target="_blank"><img  src="Noon.jpg" ></a>
+       
+        <div class="content">
+            <h2>Noon </h2><br>
+        </div>
+            
+    </article>
+ 
+</div>
+</center>
+
+<script>
+	var x = 0;
+var images = new Array("img1-1.jpg","img1-2.jpg");
+var i = setInterval(auto, 3000);
+
+function auto()
+  {
+    x++;
+    if (x == images.length)
+       x=0;
+    document.getElementById('bigImage').src=images[x];      
+  }
+	</script>
+</body>
+</html>

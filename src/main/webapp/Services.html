@@ -1,0 +1,166 @@
+<html>
+<head>
+
+
+
+<!-- --------------------------------------------------------------------------------------------- --> 
+<!-- -------------------------------------- Css file --------------------------------------------- -->  	
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+    
+     
+<!-- --------------------------------------------------------------------------------------------- -->    
+<!-- -------------------------------- web page name & icon --------------------------------------- -->   
+
+	<title> beauty </title> 
+    <link rel="icon" type="image/png" href="img/Care1.png" width="100%">
+           
+</head>
+<body>
+
+<!-- --------------------------------------------------------------------------------------------- --> 
+<!-- --------------------------------- WebSite logo ---------------------------------------------- -->    
+
+    <a href="Home.html"><img src="img/Care1.png" width="150px"></a>
+    <a href="Home.html"><img src="img/Care2.png" width="300px"></a>
+
+<!-- --------------------------------------------------------------------------------------------- --> 
+<!-- --------------------------------- website colore -------------------------------------------- -->       
+   
+    <body bgcolor= #e8ede7>
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- --------------------------------------- Menu ------------------------------------------------ -->    
+
+ <nav class="Home">
+   <a href="Home.html">Home</a>
+   <a href="Services.html">Services</a>
+   <a href="Log in.html">Log in</a>
+   <a href="About.html">About</a>
+   <a href="Contact.html">Contact</a>
+</nav>   
+<br>
+<br>
+<br>
+<br>
+ 
+<meta http-equiv="Content-Type" content="text/html">
+	<title>Services</title>
+	<style>
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #e8ede7;
+		}
+		
+		h2{
+			background-color: #e9a76e ;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		td{
+			padding: 7px;
+		}
+		input{
+			height: 30px;
+			border-radius: 10px;
+			border: none;
+			
+		}
+		
+		input:focus{
+			outline: none;
+			border: 1px solid #e9a76e ;
+		}
+		input:hover{
+			box-shadow: 5px 5px 5px black;
+		}
+		
+		.button{
+			background-color: #e9a76e;
+			color:#fff;
+			border: none;
+			padding: 7px;
+			height: 40px;
+			width: 100px;
+		}
+		
+		.button:hover {
+			cursor: pointer;
+			box-shadow: 5px 5px 5px rgb(68, 68, 68);
+		}
+	</style>
+	
+</head>
+<body>
+
+	<h1 align="center">Services User Form</h1>
+	<form method="post" action="ServiceUser" >
+		
+		<h2 align="left">User Information</h2>
+			<table width="80%" align="center">
+				<tr>
+					<td>User Name</td>
+					<td>
+						<input type="text" size="30" name="username" required autofocus>
+					</td>
+					<td>Mobile Number</td>
+					<td>
+						<input type="tel" size="30" name="mobile" required autofocus>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>City</td>
+					<td>
+						<input type="text" size="30" name="city" required autofocus>
+					</td>
+					<td>Address</td>
+					<td>
+						<input type="text" size="30" name="address" required autofocus>
+					</td>
+				</tr>
+			</table>
+		
+		
+		<!-- Address Details -->
+		<div id="address-details">
+		<h2>Service Details</h2>
+			
+			<table width="80%" align="center">
+				
+				<tr>
+					<td>Services</td>
+					<td>
+						<select width="40px"  name="services" required autofocus>
+							<option> Hire cut </option>
+							<option> Makeup </option>
+							<option> Hand Wax </option>
+							<option> Acrylic  </option>
+							<option> Nail Polish  </option>
+							<option> pedicure & Manicure </option>
+							
+						</select>
+					</td>
+					<td>Date Time</td>
+					<td>
+						<input type="date" value=""  name="2022-05-20" size="50">
+					</td>
+				</tr>
+				
+				
+			</table>
+			<br><br>
+		</div>
+		<br>
+		<br>
+		<center>
+		   <input type="Submit" value="Submit" class="button">
+	    </center>
+	</form>
+	
+	
+	
+</body>
+
+</html>
